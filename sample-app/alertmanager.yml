@@ -1,0 +1,7 @@
+route:
+  receiver: "default"
+
+receivers:
+  - name: "default"
+    webhook_configs:
+      - url: "http://172.31.34.181:5001/"
